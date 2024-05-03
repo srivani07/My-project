@@ -1,0 +1,39 @@
+.metric-card {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 265px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.metric-title {
+    color: green;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.metric-nums {
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.slash {
+    margin: 0 6px 0 2px;
+}
+
+.metric-time {
+    font-size: 14px;
+    color: #777;
+}
+
+.icon-bg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

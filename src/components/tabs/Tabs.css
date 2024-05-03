@@ -1,0 +1,32 @@
+.tabs-block {
+  background-color: #fff;
+  padding: 12px 8px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.tab-title {
+  margin-left: 6px;
+}
+
+.tab-link a {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+
+.tab-link a.active {
+  color: green;
+}
+
+.tab-link a.active::after {
+    position: absolute;  
+    content: '';
+    display: block;
+    width: 100%; 
+    bottom: -10px;
+    background: green;
+    height: 2px;
+}

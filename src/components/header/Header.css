@@ -1,0 +1,97 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #261c3b;
+  padding: 14px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+}
+
+.drop-down-with-search-container {
+  display: flex;
+}
+
+.drop-down-with-search {
+  position: relative;
+  margin-right: 12px;
+}
+
+.drop-down-with-search span {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #261c3b;
+}
+
+.global-drop-down {
+  padding: 12px 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: lightgray;
+}
+
+.global-search {
+  padding: 12px 24px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-width: 300px;
+}
+
+.add-btn {
+  padding: 10px 18px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.add-btn span {
+  margin-right: 6px;
+}
+
+.notifiction-and-profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.notifiction-badge {
+  position: relative;
+  margin-right: 25px;
+}
+
+.bell {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blip {
+  background-color: #b70000;
+  border-radius: 50%;
+  bottom: 35px;
+  height: 10px;
+  left: 22px;
+  position: absolute;
+  top: -2px;
+  width: 10px;
+}
+
+.profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  max-width: 100%;
+  object-fit: cover;
+  background-image: url(../../assets/avatar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

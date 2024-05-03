@@ -1,0 +1,42 @@
+.nav-link {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-link:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.nav-link.active {
+  background-color: green;
+  padding: 10px 0;
+}
+
+.nav-link a.active {
+  background-color: green;
+  color: #fff;
+  display: block;
+  min-width: 100%;
+  padding: 8px 0;
+}
+
+.nav-link a:link,
+a:visited {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.name {
+  margin-top: 4px;
+}
